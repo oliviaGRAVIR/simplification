@@ -9,6 +9,3 @@ demo = gr.Interface(
     outputs="text",
     title="Test Gradio"
 )
-
-if __name__ == "__main__":
-    demo.launch(share=True)
